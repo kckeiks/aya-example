@@ -1,0 +1,2 @@
+[workspace]
+members = ["xtask", "file_open_core", "file_open_core-common"]
