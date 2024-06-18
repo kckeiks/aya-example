@@ -47,6 +47,7 @@ fn main() {
         .status()
         .expect("Failed to compile the C-shim");
 
+    println!("cargo:rustc-link-lib=link-arg=--btf");
     println!("cargo:rustc-link-search=native={out_dir}");
     println!("cargo:rustc-link-lib=link-arg={out_dir}/access.o");
     println!("cargo:rerun-if-changed=src/shim/access.c");

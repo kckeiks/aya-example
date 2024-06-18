@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/file_open_core-common/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/file_open_core/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/xtask/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/file_open_core-ebpf/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/file_open_core-ebpf/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

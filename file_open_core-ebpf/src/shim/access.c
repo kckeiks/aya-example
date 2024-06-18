@@ -24,7 +24,7 @@ __attribute__((always_inline)) long unsigned int * file_f_path_dentry_inode(stru
 	return __builtin_preserve_access_index(&target->f_path.dentry->d_inode->i_ino);
 }
 
-__attribute__((always_inline)) struct path * file_f_path(struct file *target) {
+struct path * file_f_path(struct file *target) {
 	return __builtin_preserve_access_index(&target->f_path);
 }
 
