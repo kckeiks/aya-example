@@ -1,7 +1,7 @@
 [build]
 target-dir = "../target"
 target = "bpfel-unknown-none"
-rustflags = "-C debuginfo=2"
+rustflags = "-C debuginfo=2 -C link-arg=--log-level=debug -C link-arg=--log-file=/tmp/linker.log"
 
 [unstable]
 build-std = ["core"]
